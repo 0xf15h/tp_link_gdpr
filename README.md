@@ -1,6 +1,6 @@
 # TP-Link GDPR
 
-Scripts that break TP-Link's attempt at GDPR compliance. To learn more, visit the full write-up [here]().
+Scripts that break TP-Link's attempt at GDPR compliance. To learn more, visit the full write-up [here](https://hex.fish/2021/05/10/tp-link-gdpr/).
 
 ## Authenticate
 
