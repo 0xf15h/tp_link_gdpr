@@ -4,7 +4,7 @@ Scripts that break TP-Link's attempt at GDPR compliance. To learn more, visit th
 
 ## Authenticate
 
-```bash
+```text
 python3 authenticate.py 192.168.0.1 password123
 [*] Connecting to router at 192.168.0.1
 [+] Found supported device: Archer C20 AC750 Wireless Dual Band Router
@@ -19,7 +19,7 @@ python3 authenticate.py 192.168.0.1 password123
 
 ## Decrypt Credentials
 
-```bash
+```text
 python3 decrypt_creds.py ./bin/login.pcapng
 [+] Found a login packet
 [*] Login request packet captured at Unix epoch time 1618851624.846030723
@@ -33,7 +33,7 @@ password=password123
 
 ## Password Crack
 
-```bash
+```text
 python3 password_crack.py
 Cracked the password after 3 attempts. The password is "password123", enjoy!
 ```
